@@ -1,6 +1,8 @@
 # CloudFront re:invent 2018 - Builders session
 
-In order to synthesize the CloudFormation templates for the "Secure your Site - Using CDN Security features to protect your content and infrastructure" builder session, you need the following:
+To setup up the labs for this builder session, download the Zip file containing the necessary CloudFormation templates at: http://setup.awsedgeservices.com/cf-reinvent-2018.zip
+
+Unzip the file and you will find a bash script that can be used to deploy the templates.  In order to synthesize the CloudFormation templates for the "Secure your Site - Using CDN Security features to protect your content and infrastructure" builder session, you need the following:
 
 * An AWS account with root credentials (to run 04_signed_url_and_signed_cookies) or an IAM user with administration permissions.
 * A linux machine with the AWS credentials for the root account or IAM user configured.
