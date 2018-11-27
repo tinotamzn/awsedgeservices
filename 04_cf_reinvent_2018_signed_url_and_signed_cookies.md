@@ -44,7 +44,8 @@
 * Execute the following commands:
 
 ```bash
-% ./04_signed_url_and_signed_cookies/signedurls.sh"
+% ./04_signed_url_and_signed_cookies/signedurls.sh --domain <CF_DOMAIN_NAME> --pk <PATH_TO_PK> --keyid <KEY_ID>"
+# i.e. ./04_signed_url_and_signed_cookies/signedurls.sh --domain d123.cloudfront.net --pk ./pk-APKAJAGXLDV2OEXAMPLE.pem --keyid APKAJAGXLDV2OEXAMPLE
 ```
 
 * The HTTP response code should be **200 (Success)**
@@ -54,7 +55,8 @@
 * Execute the following commands:
 
 ```bash
-% ./04_signed_url_and_signed_cookies/signedcookies.sh"
+% ./04_signed_url_and_signed_cookies/signedcookies.sh --domain <CF_DOMAIN_NAME> --pk <PATH_TO_PK> --keyid <KEY_ID>"
+# i.e. ./04_signed_url_and_signed_cookies/signedcookies.sh --domain d123.cloudfront.net --pk ./pk-APKAJAGXLDV2OEXAMPLE.pem --keyid APKAJAGXLDV2OEXAMPLE
 ```
 
 * The HTTP response code should be **200 (Success)**
