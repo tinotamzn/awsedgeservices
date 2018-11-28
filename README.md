@@ -1,5 +1,6 @@
 
 # CloudFront re:invent 2018 - Builders session
+#https://instructions.awsedgeservices.com
 
 To setup up the labs for this builder session, download the Zip file containing the necessary CloudFormation templates at: http://setup.awsedgeservices.com/cf-reinvent-2018.zip
 
